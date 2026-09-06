@@ -90,16 +90,5 @@ def predict_spam(msg: Message):
 
 # Auto-run the server
 if __name__ == "__main__":
-    try:
-        uvicorn.run(
-            "main:app",
-            host="0.0.0.0",
-            port=5000,
-            reload=True
-        )
-
-    except OSError:
-        # If port 5000 is busy, try 5001
-        print("⚠️ Port 5000 busy, trying port 5001...")
-
-    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("PORT", 5000)))
+    port = int(os.getenv("PORT", 5000))
+    uvicorn.run("main:app", host="0.0.0.0", port=port)
