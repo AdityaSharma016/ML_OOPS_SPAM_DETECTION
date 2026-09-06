@@ -6,3 +6,5 @@ pandas
 jinja2
 aiofiles
 python-multipart
+pytest
+httpx2
