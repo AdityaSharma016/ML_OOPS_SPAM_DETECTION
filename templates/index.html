@@ -162,8 +162,8 @@
 
       try {
         // If you run the backend on a different origin, replace '/predict' with full URL,
-        const resp = await fetch('http://localhost:4004/predict', {
-          method: 'POST',
+        const resp = await fetch('/predict', {
+          method: 'POST', 
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ text })
         });
