@@ -22,15 +22,15 @@ https://github.com/AdityaSharma016/ML_OOPS_SPAM_DETECTION
 
 ### 🏠 Application Interface
 
-![Spam Message Detector](screenshots/home.png)
+![Spam Message Detector](Screenshots/home.png)
 
 ### 🚨 Spam Detection
 
-![Spam Prediction](screenshots/spam-prediction.png)
+![Spam Prediction](Screenshots/spam-prediction.png)
 
 ### ✅ Safe Message Detection
 
-![Safe Prediction](screenshots/safe-prediction.png)
+![Safe Prediction](Screenshots/safe-prediction.png)
 
 ---
 
