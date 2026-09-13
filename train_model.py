@@ -99,3 +99,4 @@ def generate_and_train():
 
 if __name__ == "__main__":
     generate_and_train()
+    
